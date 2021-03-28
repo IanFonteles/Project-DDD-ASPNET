@@ -1,0 +1,89 @@
+﻿@model IEnumerable<CrudDDD.MVC.ViewModels.FisicPersonViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3><img src="https://lh3.googleusercontent.com/proxy/kIljmWTbg_8rx1l1ndjJlRlR2Ya2-T6wwhT4e7uamSzcsxsBhp9_hu18D9vFMpVhGeunIMouSQqGfQaPJDvc5DPQf2lDKMF6WSL3vBSLNZ2eJKP5nY7mPqTosmQVvTdttFHTePscy53kNzUChXrn9aRwVm-awj3uIl0Cfzh8J8TzkG_rTb09" class="img-responsive" width="150" height="150" /></h3>
+<p></p>
+<p></p>
+
+@using (Html.BeginForm("Index", "FisicPerson", FormMethod.Get, new { @class = "form-inline" })) {
+    <input type="text" placeholder="Buscar um cliente" name="Busca" class="form-control" />
+    <input type="submit" class="btn-default" value="Buscar" />
+
+}
+<p>
+<p>
+    @Html.ActionLink("Criar Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CellNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CellNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.ClientId }) |
+                @Html.ActionLink("Detalhes", "Details", new { id = item.ClientId }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.ClientId })
+            </td>
+        </tr>
+    }
+
+</table>

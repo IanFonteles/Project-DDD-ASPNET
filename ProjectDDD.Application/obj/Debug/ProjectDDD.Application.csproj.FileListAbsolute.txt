@@ -1,0 +1,14 @@
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Application.dll
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Application.pdb
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Domain.dll
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Infra.Data.dll
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\EntityFramework.dll
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Domain.pdb
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Infra.Data.pdb
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\ProjectDDD.Infra.Data.dll.config
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\bin\Debug\EntityFramework.xml
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\obj\Debug\ProjectDDD.Application.csprojAssemblyReference.cache
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\obj\Debug\ProjectDDD.Application.csproj.CoreCompileInputs.cache
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\obj\Debug\ProjectDDD.Application.csproj.CopyComplete
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\obj\Debug\ProjectDDD.Application.dll
+C:\Users\ian_l\OneDrive\Desktop\ProjectDDD\ProjectDDD\ProjectDDD.Application\obj\Debug\ProjectDDD.Application.pdb
